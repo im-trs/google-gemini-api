@@ -1,0 +1,24 @@
+{
+  "name": "google-gemini-api",
+  "version": "1.0.0",
+  "main": "runner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/vertexai": "github:googleapis/nodejs-vertexai",
+    "@google/generative-ai": "^0.1.1",
+    "base64-js": "^1.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "fs": "^0.0.1-security",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {}
+}
